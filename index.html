@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/web-development_10868654.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft Academy</title>
+
+    <!--todo ------------------------ css cdn ------------------------------ -->
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            background-image: url("./images/bg-texture.png");
+        }
+    </style>
+
+    <!--todo ------------------------ icon cdn ------------------------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--todo ------------------------ font cdn ------------------------------ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+   <!--todo ------------------------------- Swiper cdn ------------------- -->
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+    <!--? ============================= start navbar section =============== -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>CodeCraft Academy</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+    <!--? ============================= end navbar section =============== -->
+
+
+
+    <!--? ============================= start header section =============== -->
+  <header>
+    <div class="container header__container">
+        <div class="header__left">
+           <h1>Grow your skills to advance your career path</h1>
+           <p>
+            Our website offers you the best learning experience in the world of programming. We provide a wide range of programming courses suitable for all levels, whether you're a beginner or an experienced developer.
+           </p>
+           <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header__right">
+            <div class="header__right-image">
+                <img src="./images/header.svg">
+            </div>
+        </div>
+    </div>
+  </header>
+    <!--? ============================= end header section =============== -->
+
+
+    <!--? ============================= start categories section =============== -->
+  <section class="categories">
+    <div class="container categories__container">
+        <div class="categories__left">
+            <h1>Categories</h1>
+            <p>
+                At our website, we offer a variety of Categories to cater to the diverse learning needs of our students. Each category is designed to help you master specific programming skills and technologies.
+            </p>
+            <a href="about.html" class="btn">Learn More</a>
+        </div>
+
+
+        <div class="categories__right">
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-bitcoin-sign"></i></span>
+                <h5>Blockchain</h5>
+                <p>Master blockchain technology through comprehensive, expert-led programming courses</p>
+            </article>
+
+
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-pen-nib"></i></span>
+                <h5>Graphic Design</h5>
+                <p>Learn graphic design with expert instructors and practical projects.</p>
+            </article>
+
+
+
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-sack-dollar"></i></span>
+                <h5>Finance</h5>
+                <p>Gain finance skills through expert-led courses and real-world applications.</p>
+            </article>
+
+
+
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-bullhorn"></i></span>
+                <h5>Marketing</h5>
+                <p>Master marketing strategies with expert-led courses and practical insights.</p>
+            </article>
+
+
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-music"></i></span>
+                <h5>Music</h5>
+                <p>Learn music theory and production with expert instructors and courses.</p>
+            </article>
+
+
+
+            <article class="category">
+                <span class="category__icon"><i class="fa-solid fa-business-time"></i></span>
+                <h5>Business</h5>
+                <p>Build business skills with expert-led courses and real-world knowledge.</p>
+            </article>
+        </div>
+    </div>
+  </section>
+    <!--? ============================= end categories section =============== -->
+
+
+    <!--? ============================= start popular courses section =============== -->  
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                <p>
+                    
+In this course, you'll learn how to create a responsive social media website UI. You'll design a website that looks great on all devices, focusing on simplicity and usability. Ideal for beginners and those looking to improve their UI design skills.
+                </p>
+
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive SmartHome Website Design</h4>
+                <p>
+                    In this course, you'll learn how to design a responsive SmartHome website. You'll create a modern, user-friendly interface that works smoothly on all devices. Perfect for beginners and anyone interested in web design for smart technologies.
+                </p>
+
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                <p>
+                    In this course, you'll learn how to design a responsive Admin Dashboard UI. You'll create a clean, functional interface that adapts to various screen sizes, ideal for managing data efficiently. get started now!
+                </p>
+
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--? ============================= end popular courses section =============== -->
+
+
+
+  <!--? ========================== start faqs section ======================== -->
+  <section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+        <article class="faq">
+              <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+              <div class="quesion__answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    Start by identifying what you are passionate about and your career aspirations. Consider the specific skills you want to learn and how they align with your professional goals.
+                </p>
+              </div>
+        </article>
+
+
+        <article class="faq">
+            <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="quesion__answer">
+              <h4>Do I get a cartificate for every course I take?</h4>
+              <p>
+                Yes, upon successful completion of each course, you will receive a certificate of achievement. These certificates serve as a formal recognition of your efforts and the skills you have acquired. They can be added to your resume or LinkedIn profile to showcase your accomplishments and enhance your career opportunities.
+              </p>
+            </div>
+      </article>
+
+
+      <article class="faq">
+        <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+        <div class="quesion__answer">
+          <h4>How experienced and qualified are the teachers?</h4>
+          <p>
+            Our instructors are highly experienced and qualified professionals in their respective fields. They possess extensive knowledge and practical experience in programming and technology. Many of them hold advanced degrees and certifications, and they have worked in the industry for several years, bringing real-world insights into the classroom.
+          </p>
+        </div>
+  </article>
+
+
+  <article class="faq">
+    <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+    <div class="quesion__answer">
+      <h4>Will I have lifetime a access to courses I purchase?</h4>
+      <p>
+        Yes, when you purchase a course, you will have lifetime access to it. This means you can revisit the course material, including videos, resources, and updates, at any time, even after you've completed the course. This flexibility allows you to learn at your own pace and revisit topics as needed to reinforce your understanding or refresh your skills.
+      </p>
+    </div>
+</article>
+
+
+<article class="faq">
+    <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+    <div class="quesion__answer">
+      <h4>Will you assist me to get my first job?</h4>
+      <p>
+        Yes, we are dedicated to supporting you in your journey to secure your first job. Our platform offers various resources to help you succeed
+      </p>
+    </div>
+</article>
+
+
+<article class="faq">
+    <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+    <div class="quesion__answer">
+      <h4>What are your payment options?</h4>
+      <p>
+        We offer a variety of payment options to make it convenient for you to enroll in our courses:
+
+        Credit and Debit Cards: You can pay using major credit and debit cards, including Visa, MasterCard, American Express, and Discover.
+        
+        PayPal: For those who prefer using an online payment platform, we accept payments through PayPal.
+        
+        Bank Transfers: We also offer bank transfer options for larger transactions or institutional purchases. Please contact us for more details on this method.
+        
+        Payment Plans: Depending on the course, we may offer installment payment plans to help you manage your budget.
+      </p>
+    </div>
+</article>
+
+
+<article class="faq">
+    <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+    <div class="quesion__answer">
+      <h4>What are the requirements to start?</h4>
+      <p>
+        To begin your learning journey with us, you typically need the following:
+
+        Basic Computer Skills: Familiarity with using a computer, navigating the internet, and handling files is essential.
+        
+        A Device: You can access our courses using a laptop, desktop computer, or tablet. A stable internet connection is also necessary for streaming videos and participating in online activities.
+        
+        Willingness to Learn: A positive attitude and motivation to learn are crucial for your success in our courses.
+        
+        Course-Specific Prerequisites: Some courses may have specific prerequisites or recommended knowledge. Be sure to check the course description for any requirements related to prior experience or skills.
+        
+        Account Creation: You’ll need to create an account on our platform to enroll in courses. This process is straightforward and only takes a few minutes.
+      </p>
+    </div>
+</article>
+
+
+<article class="faq">
+    <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+    <div class="quesion__answer">
+      <h4>Do I get all sources code from projects?</h4>
+      <p>
+        Yes, upon completing each project in our courses, you will have access to all the source code files. This includes not only the final versions of the projects but also any supplementary files and resources that may help you understand the code better.
+
+        Having access to the source code allows you to study the implementations, modify the code for your own learning, and use it as a reference for your future projects. We encourage you to experiment with the code and make it your own!
+      </p>
+    </div>
+</article>
+
+    </div>
+  </section>
+  <!--? ========================== end faqs section ======================== -->
+
+
+
+  <!--? ========================== start testimonials section ======================== -->
+  <section class="container testimonials__container mySwiper">
+    <h2>Students Testimonials</h2>
+    <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar1.jpg" alt="">
+            </div>
+            <div class="testimonial__info">
+                <h5>Diana Ayi</h5>
+                <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    My experience with this website has been truly amazing! The courses offered are outstanding, and the educational content is clear and easy to understand. I loved how the materials are organized, making learning enjoyable and effective. Additionally, the support provided by the instructors was exceptional; they were always available to help with any questions I had. I highly recommend this website to anyone looking to learn programming and enhance their skills!
+                </p>
+            </div>
+        </article>
+
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar2.jpg" alt="">
+            </div>
+            <div class="testimonial__info">
+                <h5>Ernest Achiever</h5>
+                <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    I've had a fantastic experience with this platform! The courses are well-structured and packed with valuable information. Each module is designed to build on the previous one, making it easy to follow along. The instructors are knowledgeable and provide great support throughout the learning process. I've gained so much confidence in my programming skills thanks to the hands-on projects and practical exercises. I definitely recommend this website to anyone eager to advance their coding journey!
+                </p>
+            </div>
+        </article>
+
+
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar3.jpg" alt="">
+            </div>
+            <div class="testimonial__info">
+                <h5>Edem Quist</h5>
+                <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    My journey with this website has been incredibly rewarding! The range of courses available is impressive, catering to various skill levels. I appreciate how each course combines theoretical knowledge with practical applications, allowing me to apply what I learn right away. The community is supportive, and the instructors are always willing to provide guidance. I've gained not only skills but also a deeper understanding of programming concepts. I highly recommend this platform to anyone looking to enhance their skills in a friendly and engaging environment!
+                </p>
+            </div>
+        </article>
+
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar4.jpg" alt="">
+            </div>
+            <div class="testimonial__info">
+                <h5>Hajia Bintu</h5>
+                <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    I am so grateful for the opportunity to learn through this website! The courses are incredibly well-designed and cover a wide range of topics in programming. Each lesson is straightforward and easy to follow, making it accessible for beginners like me. The interactive projects helped me apply what I learned in a practical way, and the instructors were always supportive and responsive to questions. I feel much more confident in my coding abilities now. I highly recommend this site to anyone looking to start or enhance their programming journey!
+                </p>
+            </div>
+        </article>
+
+
+
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/avatar5.jpg" alt="">
+            </div>
+            <div class="testimonial__info">
+                <h5>Jane Doe</h5>
+                <small>Student</small>
+            </div>
+            <div class="testimonial__body">
+                <p>
+                    My experience with this website has been nothing short of excellent! The variety of courses available allows for a comprehensive learning experience, whether you're a beginner or looking to advance your skills. I found the course materials to be well-structured and engaging, making it easy to stay motivated. The instructors are knowledgeable and provide valuable feedback, which greatly enhances the learning process. I’ve gained practical skills that I can apply in real-world scenarios. I highly recommend this platform to anyone interested in programming!
+                </p>
+            </div>
+        </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <!--? ========================== end testimonials section ======================== -->
+
+
+
+  <!--? ========================== start footer section ======================== -->
+<footer>
+    <div class="container footer__container">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>CodeCraft Academy</h4></a>
+            <p>
+                Empower your future with our programming courses—learn, grow, and succeed today
+            </p>
+        </div>
+
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="Permalinks">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="courses.html">Courses</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer__3">
+            <h4>Primacy</h4>
+            <ul class="privacy">
+               <li><a href="https://termify.io/privacy-policy-generator?gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOPL5zN-S-HPW7iAYS8ZGUscDRMZMVh-t9a4eyFQADJqhNuFeiimt18aAqO6EALw_wcB" target="_blank">Privacy Policy</a></li>
+               <li><a href="https://termify.io/terms-and-conditions-generator?gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOM8vfp17D7JuVCYNYqg9ejJKtlYOb8x4JTtF1QzI41xHbTIloL3GVcaAhXeEALw_wcB" target="_blank">Terms & conditions</a></li>
+               <li><a href="https://www.upseducation.in/refund-policy" target="_blank">Refund Policy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+01 234 567 8890</p>
+                <p>shakir@gmail.com</p>
+            </div>
+
+            <ul class="footer__socials">
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+
+
+                <li>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer__copyright">
+        <small>Copyright &copy; CodeCraft Academy</small>
+    </div>
+    <div class="footer__create">
+        <small>Created by Ahmed Adel</small>
+    </div>
+</footer>   
+  <!--? ========================== end footer section ======================== -->
+
+ 
+  <!--todo ------------------------------- Swiper cdn ------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!--todo ------------------------------- Js cdn ------------------- -->
+    <script src="./main.js"></script>
+
+
+
+</body>
+</html>
